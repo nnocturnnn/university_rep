@@ -1,0 +1,54 @@
+
+body {
+    background: linear-gradient(270deg,#FFFACD,#E0FFFF);
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+#login {
+    display: block;
+    background-color:#F0FFF0;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#password {
+    display: block;
+    background-color:#F0FFF0;
+    /* margin-top: 10px; */
+    margin-left: auto;
+    font-size: 15px;
+    margin-right: auto;
+}
+
+#check {
+    font-size: 15px;
+    background-color:#F0FFF0;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+#textLogin {
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#textPassword {
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
