@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Exer</class>
+ <widget class="QDialog" name="Exer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>351</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Завдання. У програмному проекті попередньої &lt;/p&gt;&lt;p&gt;лабораторної роботи ство- рити три &lt;/p&gt;&lt;p&gt;нові форми та програмний код для: &lt;/p&gt;&lt;p&gt;1) виведення інформації про авто- ра, &lt;/p&gt;&lt;p&gt;2) виведення, редагування і форматування&lt;/p&gt;&lt;p&gt; параметрів шрифту текстового документа&lt;/p&gt;&lt;p&gt; із завданням і 3) форми-заставки. &lt;/p&gt;&lt;p&gt;Програмний перехід до створених форм&lt;/p&gt;&lt;p&gt; та додаткових функцій для роботи з файлом&lt;/p&gt;&lt;p&gt; даних організувати за допо- могою &lt;/p&gt;&lt;p&gt;меню такої структури:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
