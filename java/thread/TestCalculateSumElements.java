@@ -19,7 +19,12 @@ public class TestCalculateSumElements {
 			} else {
 				blockLength = arr.length / numThread;
 			}
-			new ThreadContainer(numThread,pos,blockLength,arr).start(); // запускаем класс для подчета в новом треде
+			new ThreadContainer(
+				numThread,
+				pos,
+				blockLength,
+				arr
+			).start();
 			pos += blockLength;
 		}
 	}
