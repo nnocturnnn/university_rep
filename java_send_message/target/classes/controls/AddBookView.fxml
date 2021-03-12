@@ -12,13 +12,12 @@
 <?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
-<?imposr packlib.controlles.AddBookController?>
 
-<AnchorPane prefHeight="601.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packlib.controlles.AddBookController">
+<AnchorPane prefHeight="601.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ijse.sys.controller.AddBookController">
    <children>
       <ImageView fitHeight="57.0" fitWidth="54.0" layoutX="22.0" layoutY="22.0" onMouseClicked="#clickHome" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="/asset/home-icon.png" />
+            <Image url="@../asset/home-icon.png" />
          </image>
       </ImageView>
       <Label fx:id="lblTitle" layoutX="89.0" layoutY="42.0" prefHeight="37.0" prefWidth="285.0" text="Add Books Form" textAlignment="CENTER">

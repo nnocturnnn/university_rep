@@ -1,14 +1,14 @@
-package packlib.entity;
+package com.ijse.sys.view.util;
 
-public class Author extends SuperEntity {
+public class AuthorTM {
 
     private String author_id;
     private String author_name;
 
-    public Author() {
+    public AuthorTM() {
     }
 
-    public Author(String author_id, String author_name) {
+    public AuthorTM(String author_id, String author_name) {
         this.setAuthor_id(author_id);
         this.setAuthor_name(author_name);
     }
@@ -32,7 +32,7 @@ public class Author extends SuperEntity {
 
     @Override
     public String toString() {
-        return "Author{" +
+        return "AuthorTM{" +
                 "author_id='" + author_id + '\'' +
                 ", author_name='" + author_name + '\'' +
                 '}';

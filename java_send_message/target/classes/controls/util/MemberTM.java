@@ -1,6 +1,6 @@
-package packlib.entity;
+package com.ijse.sys.view.util;
 
-public class Member extends SuperEntity {
+public class MemberTM {
 
     private String member_id;
     private String member_name;
@@ -8,10 +8,10 @@ public class Member extends SuperEntity {
     private String member_type;
     private String member_contactNo;
 
-    public Member() {
+    public MemberTM() {
     }
 
-    public Member(String member_id, String member_name, String member_address, String member_type, String member_contactNo) {
+    public MemberTM(String member_id, String member_name, String member_address, String member_type, String member_contactNo) {
         this.setMember_id(member_id);
         this.setMember_name(member_name);
         this.setMember_address(member_address);
@@ -62,7 +62,7 @@ public class Member extends SuperEntity {
 
     @Override
     public String toString() {
-        return "Member{" +
+        return "MemberTM{" +
                 "member_id='" + member_id + '\'' +
                 ", member_name='" + member_name + '\'' +
                 ", member_address='" + member_address + '\'' +

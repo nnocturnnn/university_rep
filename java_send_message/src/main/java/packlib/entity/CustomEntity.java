@@ -1,4 +1,4 @@
-package com.ijse.sys.entity;
+package packlib.entity;
 
 public class CustomEntity {
 }

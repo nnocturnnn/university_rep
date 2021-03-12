@@ -1,16 +1,16 @@
-package packlib.entity;
+package com.ijse.sys.view.util;
 
-public class Book extends SuperEntity {
+public class BookTM {
 
     private String book_id;
     private String book_title;
     private String author_id;
     private String book_available;
 
-    public Book(String book_id) {
+    public BookTM() {
     }
 
-    public Book(String book_id, String book_title, String author_id, String book_available) {
+    public BookTM(String book_id, String book_title, String author_id, String book_available) {
         this.setBook_id(book_id);
         this.setBook_title(book_title);
         this.setAuthor_id(author_id);
@@ -52,7 +52,7 @@ public class Book extends SuperEntity {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "BookTM{" +
                 "book_id='" + book_id + '\'' +
                 ", book_title='" + book_title + '\'' +
                 ", author_id='" + author_id + '\'' +
