@@ -7,9 +7,9 @@
 <?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
-<?imposr packlib.controlles.MainFormController?>
+<?imposr packlib.controller.MainFormController?>
 
-<AnchorPane onMouseClicked="#btnUser" prefHeight="410.0" prefWidth="503.0" stylesheets="@/com/ijse/sys/view/style/MainForm.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packlib.controlles.MainFormController">
+<AnchorPane onMouseClicked="#btnUser" prefHeight="410.0" prefWidth="503.0" stylesheets="/controls/style/MainForm.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packlib.controller.MainFormController">
    <children>
       <ImageView fitHeight="85.0" fitWidth="99.0" layoutX="14.0" layoutY="166.0" onMouseClicked="#ClickAddMember" pickOnBounds="true" preserveRatio="true">
          <image>
