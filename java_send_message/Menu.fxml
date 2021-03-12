@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="240.0" layoutY="94.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="123.0" text="User" />
+      <Button layoutX="240.0" layoutY="130.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="123.0" text="LibraryAdmin" />
+      <Button layoutX="240.0" layoutY="166.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="123.0" text="Admin" />
+      <Button layoutX="240.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="123.0" text="Office Manager" />
+   </children>
+</Pane>

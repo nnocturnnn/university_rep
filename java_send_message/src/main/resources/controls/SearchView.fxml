@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="510.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ijse.sys.controller.SearchFormController">
+   <children>
+      <ImageView fitHeight="57.0" fitWidth="59.0" layoutX="29.0" layoutY="23.0" onMouseClicked="#clickHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8_Back_Arrow_48px.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblTitle" layoutX="94.0" layoutY="36.0" prefHeight="57.0" prefWidth="285.0" text="Search Form" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7428571428571429" endY="0.8809523809523809" startX="0.7428571428571429" startY="0.15714285714285714">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#c6c9dd" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <JFXTextField fx:id="txtSearch" labelFloat="true" layoutX="160.0" layoutY="105.0" onKeyReleased="#clickSearch" prefHeight="25.0" prefWidth="329.0" promptText="Search Book" />
+      <TableView fx:id="tblSearchBook" layoutX="34.0" layoutY="168.0" prefHeight="306.0" prefWidth="582.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Book ID" />
+          <TableColumn prefWidth="195.0" text="Title" />
+            <TableColumn prefWidth="218.0" text="Author" />
+            <TableColumn prefWidth="93.0" text="Available" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
