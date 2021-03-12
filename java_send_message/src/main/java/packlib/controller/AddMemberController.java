@@ -106,7 +106,7 @@ public class AddMemberController {
 
     @FXML
     private void clickHome(MouseEvent mouseEvent) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/com/ijse/sys/view/MainFormView.fxml"));
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/controls/MainFormView.fxml"));
         Scene scene = new Scene(parent);
         Stage primaryStage = (Stage) lblTitle.getScene().getWindow();
         primaryStage.setScene(scene);

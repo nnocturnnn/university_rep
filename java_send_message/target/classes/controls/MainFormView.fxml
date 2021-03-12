@@ -7,13 +7,13 @@
 <?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
-<?imposr packlib.controlles.MainFormController?>
+<?imposr packlib.controller.MainFormController?>
 
-<AnchorPane onMouseClicked="#btnUser" prefHeight="410.0" prefWidth="503.0" stylesheets="@/com/ijse/sys/view/style/MainForm.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packlib.controlles.MainFormController">
+<AnchorPane onMouseClicked="#btnUser" prefHeight="410.0" prefWidth="503.0" stylesheets="/controls/style/MainForm.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packlib.controller.MainFormController">
    <children>
       <ImageView fitHeight="85.0" fitWidth="99.0" layoutX="14.0" layoutY="166.0" onMouseClicked="#ClickAddMember" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="/asset/add_users.png" />
+            <Image url="/asset/icons8_Conference_48px.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="85.0" fitWidth="99.0" layoutX="146.0" layoutY="166.0" onMouseClicked="#ClickAddBook" pickOnBounds="true" preserveRatio="true">
@@ -23,7 +23,7 @@
       </ImageView>
       <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="282.0" layoutY="166.0" onMouseClicked="#ClickBrroweBook" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="/asset/brrowe_books.png" />
+            <Image url="/asset/add_users.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="85.0" fitWidth="99.0" layoutX="401.0" layoutY="166.0" onMouseClicked="#ClickReturnBook" pickOnBounds="true" preserveRatio="true">
@@ -31,17 +31,17 @@
             <Image url="/asset/icons8_Return_Book_48px.png" />
          </image>
       </ImageView>
-      <Label layoutX="24.0" layoutY="260.0" text="Add Member">
+      <Label layoutX="24.0" layoutY="260.0" text="Admin Library">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="158.0" layoutY="260.0" text="Add Books">
+      <Label layoutX="153.0" layoutY="260.0" text="Archive Master">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="284.0" layoutY="260.0" text="Issue of Books">
+      <Label layoutX="300.0" layoutY="260.0" text="User">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -51,7 +51,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <Label fx:id="lblTitle" layoutX="173.0" layoutY="23.0" prefHeight="57.0" prefWidth="155.0" text="Main Form" textAlignment="CENTER">
+      <Label fx:id="lblTitle" layoutX="153.0" layoutY="23.0" prefHeight="57.0" prefWidth="255.0" text="Change action" textAlignment="CENTER">
          <font>
             <Font name="System Bold" size="30.0" />
          </font>

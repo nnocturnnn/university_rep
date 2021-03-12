@@ -20,7 +20,7 @@ public class MainFormController {
 
     @FXML
     private void ClickAddMember(MouseEvent mouseEvent) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/com/ijse/sys/view/AddMemberView.fxml"));
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/controls/AddMemberView.fxml"));
         Scene scene = new Scene(parent);
 
         Stage primaryStage = (Stage)lblTitle.getScene().getWindow();
@@ -32,7 +32,7 @@ public class MainFormController {
 
     @FXML
     private void ClickAddBook(MouseEvent mouseEvent) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/com/ijse/sys/view/AddBookView.fxml"));
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/controls/AddBookView.fxml"));
         Scene scene = new Scene(parent);
 
         Stage primaryStage = (Stage)lblTitle.getScene().getWindow();
@@ -44,7 +44,7 @@ public class MainFormController {
 
     @FXML
     private void ClickBrroweBook(MouseEvent mouseEvent) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/com/ijse/sys/view/IssueOFBook.fxml"));
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/controls/IssueOFBook.fxml"));
         Scene scene = new Scene(parent);
 
         Stage primaryStage = (Stage)lblTitle.getScene().getWindow();
@@ -56,7 +56,7 @@ public class MainFormController {
 
     @FXML
     private void ClickReturnBook(MouseEvent mouseEvent) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/com/ijse/sys/view/ReturnBookView.fxml"));
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/controls/ReturnBookView.fxml"));
         Scene scene = new Scene(parent);
 
         Stage primaryStage = (Stage)lblTitle.getScene().getWindow();

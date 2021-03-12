@@ -80,7 +80,7 @@ public class AddAuthorController {
 
     @FXML
     private void clickBack(MouseEvent mouseEvent) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/com/ijse/sys/view/AddBookView.fxml"));
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/controls/AddBookView.fxml"));
         Scene scene = new Scene(parent);
         Stage primaryStage = (Stage)lblTitle.getScene().getWindow();
         primaryStage.setScene(scene);

@@ -10,9 +10,9 @@
 <?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
-<?imposr packlib.controlles.SearchFormController?>
+<?imposr packlib.controller.SearchFormController?>
 
-<AnchorPane prefHeight="510.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packlib.controlles.SearchFormController">
+<AnchorPane prefHeight="510.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packlib.controller.SearchFormController">
    <children>
       <ImageView fitHeight="57.0" fitWidth="59.0" layoutX="29.0" layoutY="23.0" onMouseClicked="#clickHome" pickOnBounds="true" preserveRatio="true">
          <image>
