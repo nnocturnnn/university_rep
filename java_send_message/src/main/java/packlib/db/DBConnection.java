@@ -1,4 +1,4 @@
-package com.ijse.sys.db;
+package packlib.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

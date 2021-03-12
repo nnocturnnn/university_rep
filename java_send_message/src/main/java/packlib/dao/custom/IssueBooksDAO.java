@@ -1,7 +1,7 @@
-package com.ijse.sys.dao.custom;
+package packlib.dao.custom;
 
-import com.ijse.sys.dao.CrudDAO;
-import com.ijse.sys.entity.IssueBooks;
+import packlib.dao.CrudDAO;
+import packlib.entity.IssueBooks;
 
 public interface IssueBooksDAO extends CrudDAO<IssueBooks, String> {
 }

@@ -1,6 +1,6 @@
-package com.ijse.sys.dao;
+package packlib.dao;
 
-import com.ijse.sys.dao.custom.impl.*;
+import packlib.dao.custom.impl.*;
 
 public class DAOFactory {
 

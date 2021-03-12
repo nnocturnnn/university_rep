@@ -1,4 +1,4 @@
-package com.ijse.sys.dao.custom.impl;
+package packlib.dao.custom.impl;
 
 public class QueryDAOImpl {
 }

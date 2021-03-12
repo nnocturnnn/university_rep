@@ -1,4 +1,4 @@
-package com.ijse.sys.dao;
+package packlib.dao;
 
 public interface SuperDAO {
 }

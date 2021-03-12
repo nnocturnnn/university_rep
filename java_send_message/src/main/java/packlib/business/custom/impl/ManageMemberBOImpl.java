@@ -1,10 +1,10 @@
-package com.ijse.sys.business.custom.impl;
+package packlib.business.custom.impl;
 
-import com.ijse.sys.business.Converter;
-import com.ijse.sys.business.custom.ManageMemberBO;
-import com.ijse.sys.dao.DAOFactory;
-import com.ijse.sys.dao.custom.MemberDAO;
-import com.ijse.sys.dto.MemberDTO;
+import packlib.business.Converter;
+import packlib.business.custom.ManageMemberBO;
+import packlib.dao.DAOFactory;
+import packlib.dao.custom.MemberDAO;
+import packlib.dto.MemberDTO;
 
 import java.sql.SQLException;
 import java.util.List;

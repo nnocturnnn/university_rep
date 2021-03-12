@@ -1,6 +1,6 @@
-package com.ijse.sys.dao;
+package packlib.dao;
 
-import com.ijse.sys.db.DBConnection;
+import packlib.db.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -1,13 +1,13 @@
-package com.ijse.sys.controller;
+package packlib.controller;
 
-import com.ijse.sys.business.BOFactory;
-import com.ijse.sys.business.custom.ManageBookBO;
-import com.ijse.sys.business.custom.ManageIssueBooksBO;
-import com.ijse.sys.business.custom.ManageMemberBO;
-import com.ijse.sys.dto.BookDTO;
-import com.ijse.sys.dto.IssueBooksDTO;
-import com.ijse.sys.dto.MemberDTO;
-import com.ijse.sys.view.util.IssueOfBookTM;
+import packlib.business.BOFactory;
+import packlib.business.custom.ManageBookBO;
+import packlib.business.custom.ManageIssueBooksBO;
+import packlib.business.custom.ManageMemberBO;
+import packlib.dto.BookDTO;
+import packlib.dto.IssueBooksDTO;
+import packlib.dto.MemberDTO;
+import packlib.view.util.IssueOfBookTM;
 import com.jfoenix.controls.JFXTextField;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;

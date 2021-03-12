@@ -1,8 +1,8 @@
-package com.ijse.sys.controller;
+package packlib.controller;
 
-import com.ijse.sys.business.BOFactory;
-import com.ijse.sys.business.custom.ManageIssueBooksBO;
-import com.ijse.sys.dto.IssueBooksDTO;
+import packlib.business.BOFactory;
+import packlib.business.custom.ManageIssueBooksBO;
+import packlib.dto.IssueBooksDTO;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

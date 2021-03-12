@@ -1,7 +1,7 @@
-package com.ijse.sys.dao.custom;
+package packlib.dao.custom;
 
-import com.ijse.sys.dao.CrudDAO;
-import com.ijse.sys.entity.Author;
+import packlib.dao.CrudDAO;
+import packlib.entity.Author;
 
 public interface AuthorDAO extends CrudDAO<Author, String> {
 }

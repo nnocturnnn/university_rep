@@ -1,10 +1,10 @@
-package com.ijse.sys.controller;
+package packlib.controller;
 
-import com.ijse.sys.business.BOFactory;
-import com.ijse.sys.business.custom.ManageAuthorBO;
-import com.ijse.sys.business.custom.ManageBookBO;
-import com.ijse.sys.dto.BookDTO;
-import com.ijse.sys.view.util.BookTM;
+import packlib.business.BOFactory;
+import packlib.business.custom.ManageAuthorBO;
+import packlib.business.custom.ManageBookBO;
+import packlib.dto.BookDTO;
+import packlib.view.util.BookTM;
 import com.jfoenix.controls.JFXTextField;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

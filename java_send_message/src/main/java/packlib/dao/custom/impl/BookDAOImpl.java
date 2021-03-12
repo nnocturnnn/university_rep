@@ -1,8 +1,8 @@
-package com.ijse.sys.dao.custom.impl;
+package packlib.dao.custom.impl;
 
-import com.ijse.sys.dao.CrudUtil;
-import com.ijse.sys.dao.custom.BookDAO;
-import com.ijse.sys.entity.Book;
+import packlib.dao.CrudUtil;
+import packlib.dao.custom.BookDAO;
+import packlib.entity.Book;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

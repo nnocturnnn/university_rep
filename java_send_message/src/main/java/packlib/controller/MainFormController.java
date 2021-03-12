@@ -1,4 +1,4 @@
-package com.ijse.sys.controller;
+package packlib.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

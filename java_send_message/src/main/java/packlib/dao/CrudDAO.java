@@ -1,7 +1,6 @@
-package com.ijse.sys.dao;
+package packlib.dao;
 
-import com.ijse.sys.entity.SuperEntity;
-import jdk.nashorn.internal.runtime.options.Option;
+import packlib.entity.SuperEntity;
 
 import java.sql.SQLException;
 import java.util.List;

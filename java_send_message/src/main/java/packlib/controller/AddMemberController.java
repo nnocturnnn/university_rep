@@ -1,9 +1,9 @@
-package com.ijse.sys.controller;
+package packlib.controller;
 
-import com.ijse.sys.business.BOFactory;
-import com.ijse.sys.business.custom.ManageMemberBO;
-import com.ijse.sys.dto.MemberDTO;
-import com.ijse.sys.view.util.MemberTM;
+import packlib.business.BOFactory;
+import packlib.business.custom.ManageMemberBO;
+import packlib.dto.MemberDTO;
+import packlib.view.util.MemberTM;
 import com.jfoenix.controls.JFXTextField;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
