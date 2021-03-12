@@ -1,4 +1,4 @@
-package com.ijse.sys.dao.custom;
+package packlib.dao.custom;
 
 public interface QueryDAO {
 }

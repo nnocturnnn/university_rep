@@ -4,7 +4,9 @@
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/dto/SuperDTO.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/controller/IssueOfBookController.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/controller/ReturnBookController.java
+/Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/view/util/IssueOfBookTM.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/dao/SuperDAO.java
+/Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/view/util/BookTM.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/business/SuperBO.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/LibMain.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/scenes/InterfaceScene.java
@@ -14,6 +16,7 @@
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/entity/Member.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/business/BOFactory.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/dao/custom/impl/QueryDAOImpl.java
+/Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/view/util/AuthorTM.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/business/custom/impl/ManageMemberBOImpl.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/business/custom/impl/ManageIssueBooksBOImpl.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/controller/AddBookController.java
@@ -33,6 +36,7 @@
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/dto/MemberDTO.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/business/custom/ManageAuthorBO.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/dao/DAOFactory.java
+/Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/view/util/MemberTM.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/dto/IssueBooksDTO.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/dao/custom/IssueBooksDAO.java
 /Users/asydoruk/university_rep/java_send_message/src/main/java/packlib/scenes/AbstractScene.java

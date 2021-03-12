@@ -1,4 +1,4 @@
-package com.ijse.sys.dto;
+package packlib.dto;
 
 public class MemberDTO extends SuperDTO {
 
