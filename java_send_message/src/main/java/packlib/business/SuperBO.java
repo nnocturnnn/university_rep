@@ -1,4 +1,4 @@
-package com.ijse.sys.business;
+package packlib.business;
 
 public interface SuperBO {
 }

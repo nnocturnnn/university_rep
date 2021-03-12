@@ -1,9 +1,9 @@
-package com.ijse.sys.business;
+package packlib.business;
 
-import com.ijse.sys.business.custom.impl.ManageAuthorBOImpl;
-import com.ijse.sys.business.custom.impl.ManageBookBOImpl;
-import com.ijse.sys.business.custom.impl.ManageIssueBooksBOImpl;
-import com.ijse.sys.business.custom.impl.ManageMemberBOImpl;
+import packlib.business.custom.impl.ManageAuthorBOImpl;
+import packlib.business.custom.impl.ManageBookBOImpl;
+import packlib.business.custom.impl.ManageIssueBooksBOImpl;
+import packlib.business.custom.impl.ManageMemberBOImpl;
 
 public class BOFactory {
 

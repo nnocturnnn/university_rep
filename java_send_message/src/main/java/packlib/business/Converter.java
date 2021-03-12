@@ -1,7 +1,7 @@
-package com.ijse.sys.business;
+package packlib.business;
 
-import com.ijse.sys.dto.*;
-import com.ijse.sys.entity.*;
+import packlib.dto.*;
+import packlib.entity.*;
 
 import java.util.ArrayList;
 import java.util.List;

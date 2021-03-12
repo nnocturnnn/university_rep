@@ -1,7 +1,7 @@
-package com.ijse.sys.business.custom;
+package packlib.business.custom;
 
-import com.ijse.sys.business.SuperBO;
-import com.ijse.sys.dto.IssueBooksDTO;
+import packlib.business.SuperBO;
+import packlib.dto.IssueBooksDTO;
 
 import java.sql.SQLException;
 import java.util.List;
