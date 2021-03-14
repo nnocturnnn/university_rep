@@ -5,8 +5,12 @@ using namespace std;
 int main() {
     int a = 110;
     int b = -78;
+    int c = 32;
+    double d = -60,34375;
     char a_rr[sizeof(int)];
     char b_rr[sizeof(int)];
+    char c_rr[sizeof(int)];
+    char d_rr[sizeof(int)];
     std::memcpy(a_rr,&a,sizeof(int));
     std::memcpy(b_rr,&b,sizeof(int));
     std::reverse(b_rr, b_rr + sizeof(int));
