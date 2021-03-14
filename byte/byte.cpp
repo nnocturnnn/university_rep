@@ -2,28 +2,29 @@
 using namespace std;
 
 
-template<std::size_t N>
-void reverse(std::bitset<N> &b) {
-    for(std::size_t i = 0; i < N/2; ++i) {
-        bool t = b[i];
-        b[i] = b[N-i-1];
-        b[N-i-1] = t;
-    }
-}
-
 int main() {
     int a = 110;
     int b = -78;
     int c = 32;
-    double d = -60.34375;
+    float d = -60.34375;
+    int res_int;
     std::string binary_a = std::bitset<8>(a).to_string();
+    cout << "A = " << a << " Byte A = " << binary_a << endl;
     std::string binary_b = std::bitset<8>(b).to_string();
+    cout << "B = " << b << " Byte B = " << binary_b << endl;
     std::string binary_c = std::bitset<8>(c).to_string();
+    cout << "C = " << c << " Byte C = " << binary_c << endl;
     std::string binary_d_4 = std::bitset<32>(d).to_string();
+    cout << "D = " << d << " 4 Byte D = " << binary_d_4 << endl;
     std::string binary_d_8 = std::bitset<64>(d).to_string();
+    cout << "D = " << d << " 8 Byte D = " << binary_d_8 << endl;
     std::string binary_d_10 = std::bitset<80>(d).to_string();
-    // std::cout<<binary_a<<"\n";
-    // reverse(binary_a.begin(), binary_a.end()); 
-    // std::cout<<binary_a<<"\n";
+    cout << "D = " << d << " 10 Byte D = " << binary_d_10 << endl;
+    reverse(binary_b.begin(), binary_b.end());
+    std::bitset<8> b3(binary_b);
+    std::bitset<8> b4(binary_c);
+    std :: bitset <8> sum (b3.to_ulong () + b4.to_ulong());
+    res_int = (int)(sum.to_ulong()) * -1;res_int--;
+    cout << "Byte B - Byte C = Byte " << sum << " And Int " << res_int << endl;
 }
 
