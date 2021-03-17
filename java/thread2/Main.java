@@ -6,11 +6,10 @@ import java.util.concurrent.BlockingQueue;
 public class Main {
   public static void main(String[] args) {
       BlockingQueue<Task> q1 = new ArrayBlockingQueue<>(20);
-      BlockingQueue<Task> q2 = new ArrayBlockingQueue<>(20);
+      BlockingQueue<Task> q2 = new ArrayBlockingQueue<>(20); //очереди
 
       Thread producer1 = new Thread(new Producer(q1, "1"));
-//      Thread producer2 = new Thread(new Producer(q2, "2"));
-      Thread consumer = new Thread(new Consumer(q1, q2));
+      Thread consumer = new Thread(new Consumer(q1, q2)); // процессы
 
       consumer.start();
       try {
@@ -19,6 +18,5 @@ public class Main {
           e.printStackTrace();
       }
       producer1.start();
-//      producer2.start();
   }
 }

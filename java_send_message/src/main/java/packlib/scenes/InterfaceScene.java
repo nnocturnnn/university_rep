@@ -1,10 +1,10 @@
-package packlib.scenes;
+// package packlib.scenes;
 
-import javafx.scene.Scene;
+// import javafx.scene.Scene;
 
-public interface InterfaceScene {
-    Scene scene = null;
+// public interface InterfaceScene {
+//     Scene scene = null;
 
-    void setScene();
-    Scene getScene();
-}
+//     void setScene();
+//     Scene getScene();
+// }

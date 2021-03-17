@@ -50,6 +50,48 @@ void print_list(struct node* head)
     return;
 }
 
+static char** _strsplit( const char* s, const char* delim, size_t* nb ) {
+	void* data;
+	char* _s = ( char* )s;
+	const char** ptrs;
+	size_t
+		ptrsSize,
+		nbWords = 1,
+		sLen = strlen( s ),
+		delimLen = strlen( delim );
+
+	while ( ( _s = strstr( _s, delim ) ) ) {
+		_s += delimLen;
+		++nbWords;
+	}
+	ptrsSize = ( nbWords + 1 ) * sizeof( char* );
+	ptrs =
+	data = malloc( ptrsSize + sLen + 1 );
+	if ( data ) {
+		*ptrs =
+		_s = strcpy( ( ( char* )data ) + ptrsSize, s );
+		if ( nbWords > 1 ) {
+			while ( ( _s = strstr( _s, delim ) ) ) {
+				*_s = '\0';
+				_s += delimLen;
+				*++ptrs = _s;
+			}
+		}
+		*++ptrs = NULL;
+	}
+	if ( nb ) {
+		*nb = data ? nbWords : 0;
+	}
+	return data;
+}
+
+char** strsplit( const char* s, const char* delim ) {
+	return _strsplit( s, delim, NULL );
+}
+
+char** strsplit_count( const char* s, const char* delim, size_t* nb ) {
+	return _strsplit( s, delim, nb );
+}
 
 void swap(struct node *a, struct node *b) 
 { 
@@ -91,27 +133,32 @@ void bubbleSort(struct node *start)
 int main() {
     FILE* fp = fopen("1.txt", "r"); 
     FILE* fp2 = fopen("2.txt", "r"); // читаем файлы
-    struct node* list = NULL;
-    struct node* list2 = NULL; // создаем списки
-    if (fp == NULL && fp2 == NULL) //
+    if (fp == NULL && fp2 == NULL) // проверяем
         exit(EXIT_FAILURE);
-    char* line = NULL;
+    char* line = NULL; // создаем строки
+    char* line2 = NULL;
     size_t len = 0;
-    while ((getdelim(&line, &len, ' ' , fp)) != -1) {
-        insert(&list,atoi(line));
-    }
-    while ((getdelim(&line, &len, ' ' , fp2)) != -1) {
-        insert(&list2,atoi(line));
-    }
-    fclose(fp);
+    getline(&line, &len, fp); // читаем файл в строку
+    getline(&line2, &len, fp2);
+    fclose(fp); // закрываем файлы
     fclose(fp2);
-    printf("list 1: ");
+    char **arr_line = strsplit(line," "); // делаем со строки массив 
+    char **arr_line2 = strsplit(line2," ");
+    struct node* list = NULL; // создаем списки
+    struct node* list2 = NULL;
+    for(int i = 0; arr_line[i] != NULL; i++) { // добавляем значения с массивов в списки
+        insert(&list,atoi(arr_line[i]));
+        insert(&list2,atoi(arr_line2[i]));
+    }
+    printf("First list : ");
     print_list(list);
     printf("\n");
-    printf("list 2: ");
+    printf("Second list : ");
     print_list(list2);
-    struct node* list3 = concatenate(list,list2);
-    bubbleSort(list3);
-    printf("\nlist 3: ");
+    printf("\nConcat list : ");  // выводим
+    struct node* list3 = concatenate(list,list2); // соединяем 
+    print_list(list3);
+    bubbleSort(list3); // сортируем
+    printf("\nSorted Concat list : ");
     print_list(list3);
 }

@@ -1,4 +1,4 @@
-package parallel.lab2;
+package thread2;
 
 import java.util.concurrent.BlockingQueue;
 

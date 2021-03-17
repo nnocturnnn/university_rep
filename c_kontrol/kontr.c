@@ -89,11 +89,11 @@ void bubbleSort(struct node *start)
 
 
 int main() {
-    FILE* fp = fopen("1.txt", "r"); 
-    FILE* fp2 = fopen("2.txt", "r"); // читаем файлы
+    FILE* fp = fopen("1.txt", "r");
+    FILE* fp2 = fopen("2.txt", "r");
     struct node* list = NULL;
-    struct node* list2 = NULL; // создаем списки
-    if (fp == NULL && fp2 == NULL) //
+    struct node* list2 = NULL;
+    if (fp == NULL && fp2 == NULL)
         exit(EXIT_FAILURE);
     char* line = NULL;
     size_t len = 0;
