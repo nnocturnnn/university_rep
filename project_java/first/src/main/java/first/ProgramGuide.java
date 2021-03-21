@@ -114,13 +114,15 @@ public class ProgramGuide {
 		return tvChannel;
 	}
 	
-	public void receiveProgram(String nameTv, List<TvChannel> tvCh) {
+	public List<String> receiveProgram(String nameTv, List<TvChannel> tvCh) {
+		List<String> listy = new ArrayList<>();
 		TvChannel tvChan = new TvChannel();
 		for (TvChannel tc: tvCh) {
 			if(nameTv.equals(tc.getNameTv())){
-				System.out.println(tc);
+				listy.add(tc.toString());
 			}
 		}
+		return listy;
 		
 	}
 
