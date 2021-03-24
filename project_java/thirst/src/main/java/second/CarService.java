@@ -1,9 +1,10 @@
-package thirst;
+package second;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Calendar;
 import java.util.Objects;
+import static java.util.stream.Collectors.toList;
 
 public class CarService {
 

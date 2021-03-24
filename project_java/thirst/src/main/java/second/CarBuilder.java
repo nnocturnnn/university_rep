@@ -1,4 +1,4 @@
-package thirst;
+package second;
 
 public class CarBuilder {
 

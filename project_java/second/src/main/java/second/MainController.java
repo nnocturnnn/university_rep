@@ -9,21 +9,30 @@ import java.io.*;
 import java.util.Random;
 
 public class MainController  {
-    String[] arry = {};
+    String[] arry = {String.valueOf(getRandomNumberInRange(0, 1000)),String.valueOf(getRandomNumberInRange(0, 1000000)),String.valueOf(getRandomNumberInRange(0, 100000)),String.valueOf(getRandomNumberInRange(0, 100)),String.valueOf(getRandomNumberInRange(0, 1000000))};
     @FXML public Label arr;
-    String stri = "";
+    @FXML public Label arr2;
+    String stri = "finish\n";
     @FXML
-    public void print() throws IOException{ 
-        for (int i = 0; i < 5; i++) {
-            arry[i] = String.valueOf(getRandomNumberInRange(0, 1000000));
+    public void print() throws IOException{
+        int size = arry.length;
+        int midl = 0;
+        String stri2 = "start\n";
+        for (String arg : arry) {
+            midl += arg.length();
         }
+        midl = midl / size;
         for (String str : arry) {
-            stri += str + " - " + Integer.toString(str.length()) + "\n";
+            if (str.length() > midl) {
+                stri += str + " - " + Integer.toString(str.length()) + "\n";
+            }
+            stri2 +=  str + " - " + Integer.toString(str.length()) + "\n";
         }
         OutputStream os = new FileOutputStream(new File("db.txt"), true);
         os.write(stri.getBytes(), 0, stri.length());
         os.close();
-        arr.setText(stri);
+        arr.setText(stri2);
+        arr2.setText(stri);
     }
 
     private static int getRandomNumberInRange(int min, int max) {

@@ -1,6 +1,6 @@
 package fif;
 
-public abstract class Notebook implements IPaper
+public abstract class Notebook implements fif.IPaper
 {
     public String colour;
     public String quality;
@@ -15,12 +15,12 @@ public abstract class Notebook implements IPaper
     {
         return "Shred Notebook";
     }
-    // void setColour(String colour) {
-    //     this.colour = colour;
-    // }
-    // void setQuality(String quality) {
-    //     this.quality = quality;
-    // }
+    void setColour(String colour) {
+        this.colour = colour;
+    }
+    void setQuality(String quality) {
+        this.quality = quality;
+    }
 
     void setCoverColour(String CoverColour) {
         this.CoverColour = CoverColour;
@@ -37,11 +37,11 @@ public abstract class Notebook implements IPaper
         return this.Type;
     }
 
-    // String getColour() {
-    //     return this.colour;
-    // }
+    String getColour() {
+        return this.colour;
+    }
 
-    // String getQuality() {
-    //     return this.quality;
-    // }
+    String getQuality() {
+        return this.quality;
+    }
 }

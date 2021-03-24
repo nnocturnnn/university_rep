@@ -1,23 +1,23 @@
 package fif;
 
-public class DrawingNotebook extends Notebook
+public class DrawingNotebook
     {
         public String CoverColour;
         public String Type;
         public String Orientation;
         public Boolean HasExamples;
-        
+
         void setCoverColour(String CoverColour) {
             this.CoverColour = CoverColour;
         }
         void setType(String type) {
             this.Type = type;
         }
-    
+
         String getCoverColour() {
             return this.CoverColour;
         }
-    
+
         String getType() {
             return this.Type;
         }
@@ -31,7 +31,7 @@ public class DrawingNotebook extends Notebook
         {
             return "Draw portrait";
         }
-        
+
         public String DrawView()
         {
             return "Draw view";
@@ -40,5 +40,9 @@ public class DrawingNotebook extends Notebook
         public String Flipping()
         {
             return "Flipping drawing notebook";
+        }
+
+        public String toSring() {
+            return "colour : " + CoverColour + "\ntype : " + Type + "\n";
         }
     }

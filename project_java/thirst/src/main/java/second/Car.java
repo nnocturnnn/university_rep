@@ -1,4 +1,4 @@
-package thirst;
+package second;
 
 import java.util.Objects;
 
