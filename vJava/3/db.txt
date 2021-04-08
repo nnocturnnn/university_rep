@@ -1,0 +1,11 @@
+DB Shop
+Table : "SHOP_ORDER_PRODUCT", "SHOP_PRODUCT", "SHOP_ORDER"
+SHOP_PRODUCT : Long id , String number, Date dateOfOrder; List<OrderProduct> orderProduct ("SHOP_ORDER_PRODUCT")
+SHOP_ORDER_PRODUCT : Long id, Order order ("SHOP_ORDER") ,Product product ("SHOP_PRODUCT"),Long quantity;
+SHOP_ORDER : Long id, String number, Date dateOfOrder , orderProduct
+
+
+Entites - сущности таблиц БД в java
+Dao - абстрактный интерфейс для работы с БД
+Services - запросы к БД
+Util - функции описаные в задании

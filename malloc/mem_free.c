@@ -24,7 +24,7 @@ void			free_block(int type, t_block *block)
 	pthread_mutex_unlock(&g_mutex);
 }
 
-void			free(void *ptr)
+void			mem_free(void *ptr)
 {
 	t_block		*block;
 	int			type;
