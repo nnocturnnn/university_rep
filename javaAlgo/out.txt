@@ -1,0 +1,7 @@
+60.0, reemy, шт
+	25.0, 23.0, шт, asassaasdads
+50.0, qwemm, шт
+	28.0, 25.0, шт, fgdsfgfdgffg
+78.0, luksy, шт
+	24.0, 56.0, шт, asassaasdads
+	12.0, 23.0, шт, asassaasdads
